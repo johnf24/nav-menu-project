@@ -1,0 +1,91 @@
+    body {
+        margin:0%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    header {
+        background-color: white;
+        height: 45px;
+        width: 100%;
+    }
+
+    button {
+        padding: 15px 35px;
+        background-color: white;
+        border: none;
+        color: grey;
+        font-family: "Arial", sans-serif;
+    }
+
+    h2, button {
+         display: inline;
+    }
+
+    h2 {
+         font-family: "Arial", sans-serif;
+         color: #545454;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        font-family: "Arial", sans-serif;
+        font-size: 13px;
+        color: white;
+        display: block;
+        padding: 10px;
+    }
+
+    .logo-container {
+        float: left;
+        padding: 10px 75px;
+        margin-right: 175px;
+    }
+
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .content-about {
+        display: none;
+        position: absolute;
+        background-color: lightgreen;
+        width: 225px;
+    }
+
+    .content-locations, .content-products {
+        display: none;
+        position: absolute;
+        background-color: lightgreen;
+        width: 185px;
+    }
+
+/*Pseudo-classes*/
+    a:hover {
+        background-color: green
+    }
+
+    .btn:hover {
+        background-color: lightgreen;
+        color: #545454;
+    }
+
+    .dropdown-container:hover .btn {
+        background-color: lightgreen;
+    }
+
+    .dropdown-container:hover .content-about {
+        display: block;
+    }
+
+    .dropdown-container:hover .content-locations {
+        display: block;
+    }
+
+    .dropdown-container:hover .content-products {
+        display: block;
+    }
